@@ -3,15 +3,15 @@
 
 ## 团队成员
 
-[@cnzsb](https://github.com/cnzsb/)(赵世博)
+* [@cnzsb](https://github.com/cnzsb/)（赵世博）
 
-[@eazyfire](https://github.com/eazyfire/)(岳强)
+* [@eazyfire](https://github.com/eazyfire/)（岳强）
 
-[@eve0803](https://github.com/eve0803/)(郭丽敏)
+* [@eve0803](https://github.com/eve0803/)（郭丽敏）
 
-[@lilyzff](https://github.com/lilyzff/)(周芳芳)
+* [@lilyzff](https://github.com/lilyzff/)（周芳芳）
 
-[@Taoqun](https://github.com/Taoqun/)(陶群)
+* [@Taoqun](https://github.com/Taoqun/)（陶群）
 
 
 ## 项目分支管理规则
@@ -55,8 +55,8 @@ dev		# 默认开发分支
 
 当前已有页面展示:
 
-1. [郭丽敏](http://zhaoshibo.net/sfe/dist/tmp/guo)
+1. [郭丽敏](http://sfeteam.github.io/public/pages/guo)
 
-2. [陶群](http://zhaoshibo.net/sfe/dist/tmp/tao)
+2. [陶群](http://sfeteam.github.io/public/pages/tao)
 
-3. [赵世博](http://zhaoshibo.net/sfe/dist/tmp/zhao)
+3. [赵世博](http://sfeteam.github.io/public/pages/zhao)
