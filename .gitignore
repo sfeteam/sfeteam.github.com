@@ -1,2 +1,4 @@
 node_modules/
 .sass-cache/
+gulpflie.js
+package.json
