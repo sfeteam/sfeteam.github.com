@@ -14,7 +14,7 @@
 [@Taoqun](https://github.com/Taoqun/)(陶群)
 
 
-## [项目分支管理规则](http://naotu.baidu.com/file/3e85f75bd0a3f5b7cb05e4500f7797c4?token=7ac3c65649be3119&qq-pf-to=pcqq.group)
+## 项目分支管理规则
 
 ```
 master	# 版本备份分支，队长控制
