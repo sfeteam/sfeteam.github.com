@@ -1,0 +1,254 @@
+@font-face{
+    font-family: BHITC;
+    src: url('fonts/Bradley Hand ITC.TTF');
+}
+
+/* 首屏 */
+
+#start {
+    width: 100%;
+    height: 980px;
+    background: url('../images/bg.jpg') center center no-repeat;
+    position: relative;
+}
+
+.logo1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    opacity: .4;
+    filter: alpha(opacity=.4);
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    transition: all .25s ease-in;
+}
+
+.logo1:hover {
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+
+/* 首屏内容 */
+
+.start-content {
+    position: relative;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+
+.start-content h2 {
+    font-family: "BHITC", serif;
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.more {
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 100px auto 0;
+    text-align: center;
+    border-top: 5px solid #9f8f68;
+    border-bottom: 5px solid #9f8f68;
+}
+
+.more:hover {
+    border-top: 5px solid #c2a668;
+    border-bottom: 5px solid #c2a668;
+}
+
+.start-down {
+    display: block;
+    width: 30px;
+    height: 16px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url('../images/down-arrow.png');
+    opacity: .4;
+    filter: alpha(opacity=.4);
+    transition: all .25s ease-in;
+}
+
+.start-down:hover {
+    bottom: 55px;
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+
+/* 首屏结束 */
+
+
+/* 导航 */
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    padding-top: 16px;
+    text-align: center;
+    z-index: 9999;
+    position: relative;
+}
+
+.logo2 {
+    float: left;
+    font-size: 50px;
+    font-weight: 700;
+    color: #4D4D4D;
+    top: 30px;
+    padding-left: 40px;
+    transition: all .25s ease-in;
+}
+
+.logo2:hover {
+    opacity: .4;
+    filter: alpha(opacity=.4);
+}
+
+.nav {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav li a {
+    color: #acb1b1;
+    transition: all .25s ease-in;
+}
+
+.nav li a:hover {
+    color: #4d4d4d;
+}
+
+
+/* 导航结束 */
+
+
+/* 展示区 */
+
+#demo-show {
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    color: #acb1b1;
+    height: 680px;
+}
+
+.demos {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.demo {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.demo a {
+    color: #acb1b1;
+}
+
+.demo a:hover {
+    color: #4d4d4d;
+}
+
+.titleL,
+.titleR {
+    font-size: 50px;
+    font-weight: 700;
+    color: #898a8a;
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.articles {
+    border-right: 1px solid #e5e5e5;
+}
+
+.articles,
+.projects {
+    padding: 30px 0 0 40px;
+    line-height: 40px;
+    text-align: left;
+}
+
+
+/* 展示区结束 */
+
+
+/* 队员展示 */
+
+#team {
+    height: 500px;
+    text-align: center;
+}
+
+#team h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #898a8a;
+    line-height: 100px;
+}
+
+.divider {
+    margin-top: 50px;
+}
+
+.member {
+    display: inline-block;
+}
+
+.member-avatar {
+    width: 200px;
+    height: 200px;
+    background: url(../images/avatar.jpg) center center no-repeat;
+}
+
+.member-name {
+    display: inline-block;
+    padding-top: 20px;
+    color: #898a8a;
+}
+
+
+/* 点击向下后导航及后面元素布局变更 */
+
+.navbar-new {
+    background-color: #232323;
+    color: #acb1b1;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.navbar-new .logo2,
+.navbar-new .nav li a:hover {
+    color: #fff;
+}
+
+.demo-show-new {
+    margin-top: 70px;
+}
