@@ -1,12 +1,25 @@
 # SFE
 ——from IFE  
 
+## 团队成员
+
+[@cnzsb](https://github.com/cnzsb/)(赵世博)
+
+[@eazyfire](https://github.com/eazyfire/)(岳强)
+
+[@eve0803](https://github.com/eve0803/)(郭丽敏)
+
+[@lilyzff](https://github.com/lilyzff/)(周芳芳)
+
+[@Taoqun](https://github.com/Taoqun/)(陶群)
+
+
 ## [项目分支管理规则](http://naotu.baidu.com/file/3e85f75bd0a3f5b7cb05e4500f7797c4?token=7ac3c65649be3119&qq-pf-to=pcqq.group)
 
 ```
-master--gh-pages	# 队长来控制这2个分支
+master	# 版本备份分支，队长控制
 |
-dev					# 默认分支，用来pull和push，队员从仓库clone此分支到本地。
+dev		# 默认开发分支
 ```
 
 `git clone`到本地以后的所有该分支的操作需要使用`git fetch`进行抓取，然后使用`git diff`进行差异比较，如果需要合并使用`git merge`命令。
@@ -18,31 +31,27 @@ dev					# 默认分支，用来pull和push，队员从仓库clone此分支到本
 
 ```
 .
-├── dist       	  # 生成的静态网页文件，目标文件夹
-├── node_modules  # 插件
-├── src           # 原始开发文件夹，该目录下直接保存html文件
-|   ├── tmp      # 队员项目暂存目录，该目录下存放队员项目目录 
-|   |  ├── guo
-|   |  ├── tao
-|   |  ├── zhao
-|   |  └── zhou
+├── public       # 项目目录，该目录下直接保存html文件
 |   ├── css
+|   ├── fonts
 |   ├── images
 |   ├── js
+|   ├── pages    # 个别项目暂存目录
+|   |   ├── guo
+|   |   ├── tao
+|   |   ├── yue
+|   |   ├── zhao
+|   |   └── zhou
 |   └── scss
 ├── .gitignore
-├── gulpfile.js   # gulp配置文件
-├── index.html    # 团队首页
+├── index.html   # 团队首页
 ├── LICENSE
-├── package.json
 └── README.md
 ```
 
 ## 任务
 
 ### 1. [IFE热身任务](http://ife.baidu.com/static/warmup.html):
-
-本页面暂定如下[设计](http://naotu.baidu.com/file/26ca0b384bad39256348587b952f07bf?token=08bd973e79185fa8&qq-pf-to=pcqq.group)，详情等待讨论后确定。
 
 当前已有页面展示:
 
