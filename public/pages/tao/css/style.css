@@ -1,16 +1,43 @@
-body{ margin: 0;padding: 0; }
-#hd{width: 100%;height: 60px;	background: #333333;margin: auto;}
-#hd_main{width: 900px;height: 60px;margin: auto;}
-#hd_1{font-size: 30px;color: #ffffff;float: left;width: 130px;height: 60px;}
-#hd a{color: #ffffff;text-decoration: none; }
-#hd a:hover{color:#4078c0}
-.hd_x{font-size: 22px;padding:19px 4px ;color: #ffffff;float: left;width: 85px;height: 60px;}
-#hd_2{font-size: 22px;color: #ffffff;padding: 17px 0;float: right;margin-left: 20px;}
+*{ margin: 0;padding: 0; }
+body{background: #009966;}
+a{text-decoration: none; }
+#hd{width: 100%;background: #fff;top:0px;}
+#hd_main{width: 1200px;height: 60px;margin: auto;}
+#hd_1{font-size: 20px;color: #000;float: left;width: 130px;height: 60px;}
+#hd_x ul{list-style: none;}
+.hd_x{ display: block;font-size: 20px;color: #000;float: left;width: 102px;height: 60px;line-height: 60px;text-align: center;}
+.hd_x a{display: block; }
+.hd_x a:hover{font-size: 23px;}
+.hd_menu{width: 102px;height: 0px;overflow: hidden;line-height: 40px;font-size: 18px;text-align: center;}
+.hd_menu  li{height:40px;width: 100px;background: #000;border:1px solid #000;}
+.hd_menu  li a{display: block;color: #fff;}
+.hd_menu  li a:hover{background: #fff;color: #000;font-size: 18px;}
 
-#main{width: 900px;height: 600px;margin: 15px auto 0;background: #cccccc}
-#main_1{width: 900px;height: 600px;background: url(../images/desktop.jpg)}
-#footer{width: 100%;height: 150px;background: #333333;margin: 10px auto 0px;}
-#foot{width: 900px;height: 150px;margin: auto;background: #333333}
+#hd_abouts{font-size: 20px;color: #000;float: right;width: 100px;line-height: 60px;}
+#hd_right ul{list-style: none;display: block;float: right;text-align: center;}
+
+#subnav{width: 100px;height: 0px;font-size: 18px;text-align: center;overflow:hidden;line-height: 40px;}
+#subnav li a{background: #666;display: block;color: #fff;height: 40px;}
+#subnav li a:hover{background: #ccc;color: #000;}
+
+#main{ z-index: -1;position: relative;width: 1200px;margin: 20px auto 20px;border:0px solid #ccc;background: #999}
+#main_1{width: 802px;background: #999;}
+#main_2{width: 360px;background: #ccc;position: absolute;margin-left: 820px;top:20px;z-index: 1px;}
+#mnn{width: 80px;height:300px;background: #666;position: fixed;top:100px;left: 250px;}
+#mnn ul{list-style: none;}
+
+.people{width: 800px;height:400px;background: #fff;margin:10px 0px;border:1px solid #ccc;}
+.peo{margin: 20px;width: 600;height: 360px;background: #ccc;}
+.peo ul{list-style: none;display: block;}
+#teamifm{width: 760px;height: 30px;background: #99CC99;color: #fff;line-height: 30px;font-size: 20px;text-indent: 1em;}
+.ifm{margin: 20px 0px 0px 20px;padding: 30px;line-height: 25px;font-size: 20px;width: 660px;height: 200px;background: #fff;}
+
+#talk{width: 360px;height: 30px;background: #000;text-align: center;line-height: 30px;font-size: 20px;color: #fff;z-index: 1px;}
+#sfe_txt{width: 360;text-indent: 1em;margin: 10px;z-index: 1px;}
+
+#footer{width: 100%;background: #333333;}
+#foot{width: 1200px;margin: auto;background: #333333;padding-top: 15px;padding-bottom: 15px;}
 #foot a{color: #999999;text-decoration: none;font-size: 15px}
 #foot a:hover{color:#cccccc}
-.foot_body{ padding: 10px 0px; }
+.foot_body{ padding: 10px 0px;font-size: 20px;line-height:20px;}
+#fet{color: #ccc}
