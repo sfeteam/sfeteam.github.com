@@ -18,7 +18,7 @@
     width: 100px;
     height: 100px;
     opacity: .4;
-    filter: alpha(opacity=.4);
+    filter: alpha(opacity=40);
     position: absolute;
     top: 30px;
     left: 40px;
@@ -30,7 +30,7 @@
 
 .logo:hover {
     opacity: 1;
-    filter: alpha(opacity=1);
+    filter: alpha(opacity=100);
 }
 
 
@@ -83,7 +83,7 @@
         left: 12px;
         background-size: 30px 30px;
         opacity: 1;
-        filter: alpha(opacity=1);
+        filter: alpha(opacity=100);
     }
     .start-content {
         font-size: 24px;
@@ -108,14 +108,14 @@
     transform: translateX(-50%);
     background: url('../images/down-arrow.png');
     opacity: .7;
-    filter: alpha(opacity=.7);
+    filter: alpha(opacity=70);
     transition: all .25s ease-in;
 }
 
 .start-down:hover {
     bottom: 55px;
     opacity: 1;
-    filter: alpha(opacity=1);
+    filter: alpha(opacity=100);
 }
 
 
@@ -146,7 +146,7 @@
 
 .logo2:hover {
     opacity: .4;
-    filter: alpha(opacity=.4);
+    filter: alpha(opacity=40);
 }
 
 .nav {
